@@ -1,0 +1,158 @@
+{
+  "main": {
+    "id": "ec63e0e1802a67f8",
+    "type": "split",
+    "children": [
+      {
+        "id": "9994b1c376dce303",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a675abaf23a4ef3b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "vex/Project.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1404cd67eff689d6",
+    "type": "split",
+    "children": [
+      {
+        "id": "761cd2b95d91e871",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5fc5fab59db4d23f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "878a57fa768310f0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "68636d4a4290d813",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a69eec36122ba9b2",
+    "type": "split",
+    "children": [
+      {
+        "id": "c9c74affa607087a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8c889852f6ded68a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "vex/Project.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6912931392737418",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "vex/Project.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "97ead5e5d018afdc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "844b10eada688655",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "vex/Project.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "a675abaf23a4ef3b",
+  "lastOpenFiles": [
+    "vex/Vision.md",
+    "Vision.md",
+    "projects/Project2.md",
+    "projects/Project3.md",
+    "projects/Vision.md",
+    "vex/Project.md"
+  ]
+}

@@ -1,0 +1,145 @@
+@font-face {
+  font-family: 'IBM-VGA8x16';
+  src: url('fonts/IBM_VGA_8x16.woff') format('woff'), 
+}
+
+@font-face {
+  font-family: 'IBM-VGA9x8';
+  src: url('fonts/IBM_VGA_9x8.woff') format('woff'), 
+}
+
+body {
+  display: flexbox;
+  font-family: 'IBM-VGA8x16';
+  background-color: #000;
+  color: #fff;
+  word-break: break-all;
+  white-space: pre-wrap;
+  user-select: none;
+  line-height: 1.0;
+  overflow: hidden;
+  animation: revealContent 1s steps(10) forwards;
+  clip-path: inset(0 0 100% 0);
+}
+
+
+@keyframes revealContent {
+  0% {
+      clip-path: inset(0 0 100% 0);
+  }
+  100% {
+      clip-path: inset(0 0 0 0);
+      overflow: scroll;
+  }
+}
+::selection {
+  background: #fff;
+  color: #000;
+}
+
+::marker {
+  content: "> ";
+}
+
+/* 
+* Make sure the text doesn't flicker more than 3 times per second as to make it accessible to people with epilepcy 
+*/
+@keyframes flash {
+  33% {
+    color: magenta;
+  }
+  66% {
+    color: blue;
+  }
+  75% {
+    color: red;
+  }
+  66% {
+    color: blue;
+  }
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+h4 {
+  margin: 0;
+}
+
+h5 {
+  margin: 0;
+}
+
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+code {
+  font-family: 'IBM-VGA8x16';
+  font-size: 1em;
+  color: #00ff00;
+}
+
+ul {
+  margin: 0;
+}
+
+li {
+  margin: 0;
+}
+
+a {
+  color: #00ff00;
+  text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+  text-decoration: underline;
+  border: 1px solid #fff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  animation: flash 0.5s infinite;
+}
+
+a:visited {
+  color: #ff00ff;
+}
+
+a:visited:hover {
+  text-decoration: underline;
+}
+
+a:visited:active {
+  animation: flash 0.5s infinite;
+}
+
+a:visited:visited {
+  color: #ff00ff;
+}
+
+a:visited:visited:hover {
+  text-decoration: underline;
+}
+
+a:visited:visited:active {
+  animation: flash 0.5s infinite;
+}
