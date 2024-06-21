@@ -19,7 +19,7 @@ Each ear was removed using a different method:
 The chisel and hammer method here performed by Damien, worked by chiseling between the plastic of the gear and the ear. This method worked eventually but took too long and had a high risk of damaging the ear. Therefore we decided to go with method 2.
 
 <div style="display: flex; flex-direction=row; padding: 16px; justify-content: center;">
-<video alt="Damien using chiseling tools to chisel away the glue in the plastic ears." width="480" height="480" src="vid/furby/EarChisling.mov" controls>
+<video alt="Damien using chiseling tools to chisel away the glue in the plastic ears." width="480" height="480" src="vid/furby/EarChisling.mov" playsinline controls>
 </video>
 </div>
 
@@ -28,7 +28,7 @@ The chisel and hammer method here performed by Damien, worked by chiseling betwe
 Eline's boyfriend and my good friend Jelle Willems arrived to the maker-space to check in. He just came back from his day-job as a middle-school biology teacher, and was carrying surgery tools with him. He offered to remove the ears using his surgery tools and expertise. He was able to perform a clean cut between the ear and the adhesive.
 
 <div style="display: flex; flex-direction=row; padding: 16px; justify-content: center;">
-<video alt="Jelle using proffessional surgery tools to cut away at the ear." width="960" height="480" src="vid/furby/EarSurgery.mov" controls>
+<video alt="Jelle using proffessional surgery tools to cut away at the ear." width="960" height="480" src="vid/furby/EarSurgery.mov" playsinline controls>
 </video>
 </div>
 
@@ -37,7 +37,7 @@ Eline's boyfriend and my good friend Jelle Willems arrived to the maker-space to
 Eventualy the complete skin was removed, and I had full access to the internals.
 
 <div style="display: flex; flex-direction=row; padding: 16px; justify-content: center;">
-<video alt="The operational furby with its skin removed. Displaying it's internals and the frame." width="240" height="480" src="vid/furby/Dissection.mov" controls>
+<video alt="The operational furby with its skin removed. Displaying it's internals and the frame." width="240" height="480" src="vid/furby/Dissection.mov" playsinline controls>
 </video>
 <img src="img/furby/dissected.png" alt="" height="480px">
 </div>

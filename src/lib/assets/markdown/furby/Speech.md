@@ -26,7 +26,7 @@ PLAYBACK_SAMPLE_RATE = audio_helper.DEFAULT_AUDIO_SAMPLE_RATE * 1.2
 ```
 
 <div style="display: flex; flex-direction=row; padding: 16px; justify-content: center;">
-<video alt="A software demo of a conversation with the furby" width="960" height="480" src="vid/furby/GoogleAssistantDemo.mov" controls>
+<video alt="A software demo of a conversation with the furby" width="960" height="480" src="vid/furby/GoogleAssistantDemo.mov" playsinline controls>
   <!-- <source src="vid/furby/GoogleAssistantDemo.mp4" type="video/mp4"> -->
 </video>
 </div>
@@ -44,7 +44,7 @@ One of the earliest implementations of these is just called the `SAM` program. T
 I wrote a simple python application that would tell the SAM module to speak out a script, and then send a signal to the arduino tell the furby's eyes to light up. Using this technology I was able to demo the application in the presentation by having furby speak out a script.
 
 <div style="display: flex; flex-direction=row; padding: 16px; justify-content: center;">
-<video alt="A demonstration of using SAM in tandem with the furby in order to create the effect of a conversation" width="960" height="480" src="vid/furby/SpeechDemo.mov" controls>
+<video alt="A demonstration of using SAM in tandem with the furby in order to create the effect of a conversation" width="960" height="480" src="vid/furby/SpeechDemo.mov" playsinline controls>
   <!-- <source src="vid/furby/SpeechDemo.mp4" type="video/mp4"> -->
 </video>
 </div>
@@ -56,7 +56,7 @@ Audio is only one aspect of an assistant speech. Any one who has seen a furby kn
 The furby servos are surprisingly simple to operate. The furby gears can be told to move up and down using a 2 wire setup. The furby moves up or down depending on which wire gets a positive signal and which one gets a negative signal. In theory this could be controlled by supplying an H-bridge with the proper voltage and reversing the signal. I was however not able to implement this in time for the demo, but in theory this could allow for expanding the furby speaking abilities as the motors could simulate speaking the same way the furby's orginal software dows.
 
 <div style="display: flex; flex-direction=row; padding: 16px; justify-content: center;">
-<video alt="Manual control of the furby's servos" width="960" height="480" src="vid/furby/ServoControlDemo.mov" controls>
+<video alt="Manual control of the furby's servos" width="960" height="480" src="vid/furby/ServoControlDemo.mov" playsinline controls>
   <!-- <source src="vid/furby/ServoControlDemo.mp4" type="video/mp4"> -->
 </video>
 </div>
